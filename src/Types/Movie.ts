@@ -5,4 +5,5 @@ export interface Movie {
     poster_path: string | null;
     release_date: string;
     test_commit_wrong_property: string;
+    totalViews: number;
 }
