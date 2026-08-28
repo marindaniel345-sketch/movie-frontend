@@ -6,4 +6,5 @@ export interface Movie {
     release_date: string;
     test_commit_wrong_property: string;
     averageRating: number;
+    totalViews: number;
 }
