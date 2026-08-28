@@ -4,7 +4,6 @@ export interface Movie {
     overview: string;
     poster_path: string | null;
     release_date: string;
-    test_commit_wrong_property: string;
     averageRating: number;
     totalViews: number;
 }
