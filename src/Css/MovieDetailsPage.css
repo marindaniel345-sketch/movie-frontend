@@ -1,0 +1,52 @@
+body {
+    background-color: #020813;
+    padding-top: 20px;
+}
+
+.movie-card {
+    width: 390px;
+    margin: 40px auto;
+    padding: 16px;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: #cbd5e1;
+    background-color: #020813;
+   
+}
+
+.movie-card h1 {
+    font-size: 17px;
+    margin-bottom: 12px;
+    color: #cbd5e1;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 12px 0;
+    border: 1px solid #1e293b;
+}
+
+.movie-card p {
+    color: #94a3b8;
+    font-size: 13px;
+    margin: 6px 0;
+}
+
+.movie-card button {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    border: 1px solid #334155;
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 12px;
+   
+}
+

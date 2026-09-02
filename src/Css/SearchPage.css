@@ -1,0 +1,146 @@
+body {
+    background-color: #020813;
+    padding-top: 20px; 
+}
+
+.search-bar {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    padding: 20px 40px;
+}
+
+.movie-card {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #94a3b8;
+    
+}
+
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.movie-overview {
+    flex-grow: 1; 
+    color: #94a3b8;
+    
+}
+
+.movie-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px;          
+    margin-top: auto; 
+    padding-top: 10px;
+}
+.search-button {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    border: 1px solid #334155;
+    font-weight: bold;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.input {
+    width: 320px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    background-color: #0f172a;
+    border: 1px solid #1e293b;
+    color: #ffffff;
+    font-size: 15px;
+    outline: none;
+    box-shadow: none;
+}
+.add-to-watchlist {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0f172a;
+    font-family:sans-serif;
+     border: 1px solid #11285e;
+    color:white;
+}
+.movie-card select {
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    
+    
+}
+.details-button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0f172a;
+    font-family:sans-serif;
+    color:white;
+     border: 1px solid #11285e;
+}
+select {
+    background-color: #0f172a;
+    color: #ffffff;
+    border: 1px solid #1e293b;
+    padding: 6px 12px;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+.movie-card h3, .movie-title, .movie-card {
+    color: #cbd5e1;
+}
+.add-to-watchlist, .details-button {
+    background-color: #1e293b;
+    color: #e2e8f0;       
+    border: 1px solid #334155;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px 0 40px; 
+}
+
+.header button {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    border: 1px solid #1e293b;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+

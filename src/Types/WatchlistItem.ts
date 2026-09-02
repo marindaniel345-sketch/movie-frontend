@@ -1,6 +1,7 @@
-export interface WatchlistItem{
-    Id: string;
-    MovieId: number;
-    Status: number;
-    AddedAt: string;
+export interface WatchlistItem {
+    id: string;
+    movieId: number;
+    status: number;
+    personalRating: number;
+    addedAt: string;
 }
